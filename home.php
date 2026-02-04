@@ -21,7 +21,6 @@ $username = $_SESSION['username'];
     <div class="home-container">
         <h1>مرحباً بك، <?php echo htmlspecialchars($username); ?>! 👋</h1>
         <p style="margin-top: 1rem; color: #666;">لقد تم تسجيل دخولك بنجاح إلى نظام الوزير.</p>
-        <p style="margin-top: 0.5rem; color: #666;">هذه هي الصفحة الرئيسية المنسقة التي طلبتها.</p>
         
         <div style="margin-top: 2rem; padding: 1rem; background: #f9f9f9; border-radius: 8px; text-align: right;">
             <h3 style="color: #764ba2; margin-bottom: 0.5rem;">مميزات هذا النظام:</h3>
